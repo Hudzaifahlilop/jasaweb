@@ -1,0 +1,307 @@
+@media screen and (max-width: 576px){
+    .navbar {
+        position: fixed;
+    }
+    .navbar .navbar-brand{
+        margin-top: -15px;
+        margin-left: 10px;
+    }
+    #hero{
+        height: 100vh;
+    }
+    .subheading-hero{
+        font-size: 12px;
+        margin-top: 120px;
+        margin-left: 15px;
+    }
+    .heading{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .textpar{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+    .button-hero {
+        margin-left: 15px;
+    }
+
+    .img-hero{
+        margin-left: -10px;
+        margin-top: 140px;
+    }
+
+    .card-reason{
+        width: 50%;
+    }
+
+    .fix-layanan p{
+        font-size: 12px;        
+    }
+
+    .subheading-layanan{
+        font-size: 18px;
+    }
+
+    .text-layanan{
+        font-size: 12px;
+    }
+
+    .col-layanan{
+        margin-top: -100px;
+    }
+    .row-layanan{
+        margin-top: -30px;
+    }
+
+    .card-harga{
+        width: 50%;
+    }
+    .card-harga-bisnis{
+        width: 50%;
+    }
+    .card-harga-corporate{
+        width: 50%;
+    }
+
+    .harga-col-card{
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-portfolio h1{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .col-portfolio p{
+        font-size: 14px;
+    }
+
+    .alur-text h4{
+        font-size: 16px;
+    }
+    .alur-text p{
+        font-size: 14px;
+    }
+
+    .content-porto{
+        width: 50%;
+    }
+
+    #portfolio{
+        height: 140vh;
+    }
+
+    .button-portfolio{
+        margin-top: -20px;
+    }
+
+    .heading-col-akhir h1{
+        font-size: 18px;
+    }
+    .p-akhir{
+        font-size: 12px;
+    }
+    .footer-contact h4{
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+    .footer-sosmed{
+        display: flex;
+        align-items: center;
+    }
+
+    .row-link{
+        width: 100%;
+        
+    }
+
+    .footer-link{
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    .marginakhir{
+        margin-top: 20px;
+    }
+   
+    
+   
+
+}
+
+/* @media screen and (max-width : 992px){
+    
+    #portfolio{
+        padding: 10px 0;
+        height: 180vh;
+        margin-top: 1px;
+    }
+    .img-portfolio{
+        margin-bottom: 10px;
+    }
+
+    #alur{
+        margin-bottom: -10px;
+    }
+
+}
+
+@media screen and (max-width : 768px){
+    #layanan{
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width : 575px){
+    .subheading-hero{
+        font-size: 15px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .textpar{
+        font-size: 13px;
+    }
+    .card-reason img{
+        width: 50%;
+        margin-left: 125px;
+        
+    }
+    #layanan{
+        margin-top: -50px;
+    }
+    .button-portfolio{
+        margin-top: -25px;
+    }
+
+    #akhir{
+        padding-top: -50px;
+    }
+    .col-akhir h1{
+        font-size: 18px;
+    }
+
+    .col-akhir p{
+        font-size: 12px;
+    }
+
+    
+}
+
+@media screen and (max-width : 380px){
+    .subheading-hero{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .fix-hero{
+        width: 200px;
+    }
+    .fix-reason{
+        width: 325px;
+    }
+    .fix-layanan{
+        width: 280px;
+    }
+    .heading{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .textpar{
+        font-size: 11px;
+    }
+    .card-reason{
+        width: 100%;
+    }
+    .heading {
+        width: 100%;
+    }
+    .textpar{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    #layanan .container{
+        margin-top: -20px;
+    }
+     #layanan .container .row h1{
+        width: 100%;
+     }
+     #layanan .container .row p{
+        width: 100%;
+        font-size: 12px;
+     }
+
+  .row-layanan{
+    margin-left: 50px;
+    margin-top: -20px;
+  }   
+
+  .card-layanan{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+  }
+
+  .layanantest{
+    width: 200px;
+  }
+
+  .harga-col h1{
+    width: 100%;
+  }
+  .harga-col p{
+    width: 100%;
+  }
+
+  .card-harga{
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  .card-harga-bisnis{
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  .card-harga-corporate{
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  #alur{
+    height: 140vh;
+  }
+
+  #portfolio{
+    height: 350vh;
+  }
+
+  .portfolio_judul{
+    width: 100%;
+  }
+
+  #akhir{
+    width: 100%;
+    border: 20px;
+  }
+  .akhir-row{
+    width:100%;
+  }
+
+  .heading-col-akhir{
+    width: 75%;
+    margin-left: 8px;
+  }
+
+  .p-akhir{
+    width: 75%;
+    margin-left: 30px;
+  }
+  .button-akhir{
+    height: 100px;
+    width: 50%;
+}
+
+} */
