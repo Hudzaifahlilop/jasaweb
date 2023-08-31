@@ -90,8 +90,17 @@
     }
 
     #portfolio{
-        height: 140vh;
+        height: 240vh;
     }
+
+    .content-porto h3{
+        font-size: 15px;
+        font-weight: 700px;
+    }
+    .content-porto p{
+        font-size: 12px;
+    }
+    
 
     .button-portfolio{
         margin-top: -20px;
