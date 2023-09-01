@@ -1,5 +1,33 @@
 /* xs */
+@media (min-width: 350px){
+      .container-fluid{
+        max-width: 350px;
+    }
+    .container {
+        max-width: 350px;
+      }
+      .navbar .navbar-brand{
+        margin-top: -20px;
+      }
+      .navbar-toggler{
+        margin-top: -10px;
+      }
+      .subheading-hero{
+        font-size: 12px;
+        margin-top: 40px;
+        margin-left: 15px;
+      }
+      .heading{
+        font-size: 18px;
+        margin-left: 15px;
 
+      }
+      .textpar{
+        font-size: 12px;
+        margin-left: 15px;
+
+      }
+}
 @media (min-width: 475px) {
     .container-fluid{
         max-width: 475px;
