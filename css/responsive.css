@@ -1,5 +1,5 @@
 /* xs */
-@media (min-width: 350px){
+@media (min-width: 300px){
       .container-fluid{
         max-width: 350px;
     }
@@ -18,15 +18,46 @@
         margin-left: 15px;
       }
       .heading{
-        font-size: 18px;
+        font-size: 15px;
         margin-left: 15px;
 
       }
       .textpar{
-        font-size: 12px;
+        font-size: 10px;
         margin-left: 15px;
 
       }
+      #hero .container .row{
+        display: block;
+      }
+      .col-hero h4{
+        width: 300px;
+      }
+      .col-hero h1{
+        width: 200%;
+      }
+      .col-hero p{
+        width: 200%;
+      }
+      #hero{
+        height: 100vh;
+      }
+
+      .img-hero{
+        margin-left: 50px;
+        margin-top: 0px;
+        width: 400%;
+    }  
+        .button-hero{
+            width: 150px;
+            margin-left: 10px;
+            padding-right: auto;
+        }
+        .button-hero p{
+          margin-left: -70px;
+          margin-top: 7px;
+          font-size: 12px;
+        }
 }
 @media (min-width: 475px) {
     .container-fluid{
