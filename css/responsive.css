@@ -1,316 +1,362 @@
-@media screen and (max-width: 576px){
-    .navbar {
-        position: fixed;
-    }
-    .navbar .navbar-brand{
-        margin-top: -15px;
-        margin-left: 10px;
-    }
-    #hero{
-        height: 100vh;
-    }
-    .subheading-hero{
-        font-size: 12px;
-        margin-top: 120px;
-        margin-left: 15px;
-    }
-    .heading{
-        font-size: 18px;
-        margin-left: 15px;
-    }
-    .textpar{
-        font-size: 12px;
-        margin-left: 15px;
-    }
+/* xs */
 
-    .button-hero {
-        margin-left: 15px;
+@media (min-width: 475px) {
+    .container-fluid{
+        max-width: 475px;
     }
-
-    .img-hero{
-        margin-left: -10px;
-        margin-top: 140px;
-    }
-
-    .card-reason{
-        width: 50%;
-    }
-
-    .fix-layanan p{
-        font-size: 12px;        
-    }
-
-    .subheading-layanan{
-        font-size: 18px;
-    }
-
-    .text-layanan{
-        font-size: 12px;
-    }
-
-    .col-layanan{
-        margin-top: -100px;
-    }
-    .row-layanan{
-        margin-top: -30px;
-    }
-
-    .card-harga{
-        width: 50%;
-    }
-    .card-harga-bisnis{
-        width: 50%;
-    }
-    .card-harga-corporate{
-        width: 50%;
-    }
-
-    .harga-col-card{
-        display: flex;
-        justify-content: center;
-    }
-
-    .col-portfolio h1{
-        font-size: 20px;
+    .container {
+        max-width: 475px;
+      }
+      .navbar .navbar-brand{
         margin-top: -20px;
-    }
-    .col-portfolio p{
-        font-size: 14px;
-    }
-
-    .alur-text h4{
-        font-size: 16px;
-    }
-    .alur-text p{
-        font-size: 14px;
-    }
-
-    .content-porto{
-        width: 50%;
-    }
-
-    #portfolio{
-        height: 240vh;
-    }
-
-    .content-porto h3{
-        font-size: 15px;
-        font-weight: 700px;
-    }
-    .content-porto p{
-        font-size: 12px;
-    }
-    
-
-    .button-portfolio{
-        margin-top: -20px;
-    }
-
-    .heading-col-akhir h1{
-        font-size: 18px;
-    }
-    .p-akhir{
-        font-size: 12px;
-    }
-    .footer-contact h4{
-        margin-left: -30px;
-        margin-top: 20px;
-    }
-    .footer-sosmed{
-        display: flex;
-        align-items: center;
-    }
-
-    .row-link{
-        width: 100%;
-        
-    }
-
-    .footer-link{
-        width: 50%;
-        margin-left: 0px;
-    }
-
-    .marginakhir{
-        margin-top: 20px;
-    }
-   
-    
-   
-
-}
-
-/* @media screen and (max-width : 992px){
-    
-    #portfolio{
-        padding: 10px 0;
-        height: 180vh;
-        margin-top: 1px;
-    }
-    .img-portfolio{
-        margin-bottom: 10px;
-    }
-
-    #alur{
-        margin-bottom: -10px;
-    }
-
-}
-
-@media screen and (max-width : 768px){
-    #layanan{
+      }
+      .navbar-toggler{
         margin-top: -10px;
-    }
-}
+      }
+      /* hero */
 
-@media screen and (max-width : 575px){
-    .subheading-hero{
+      .subheading-hero{
+        font-size: 12px;
+        margin-top: 40px;
+        margin-left: 15px;
+      }
+      .heading{
+        font-size: 18px;
+        margin-left: 15px;
+
+      }
+      .textpar{
+        font-size: 12px;
+        margin-left: 15px;
+
+      }
+      #hero{
+        height: 100vh;
+      }
+
+      .img-hero{
+        margin-left: -10px;
+        margin-top: 110px;
+    }  
+        .button-hero{
+            width: 150px;
+            margin-left: 10px;
+        }
+        .button-hero p{
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        /* reason */
+        .card-reason img{
+          width: 50%;
+          margin-left: 120px;
+        }
+        /* layanan */
+        .col-layanan{
+          margin-top: -40px ;
+        }
+        .fix-layanan p{
+          font-size: 15px;
+        }
+        .subheading-layanan{
+          font-size: 16px;
+        }
+        .text-layanan{
+          font-size: 13px;
+        }
+        .card-layanan{
+          margin-left: 2px;
+        }
+
+        /* harga */
+         .harga-col p{
         font-size: 15px;
-    }
-    .heading{
-        font-size: 20px;
-    }
-    .textpar{
+      }
+      .detail-harga{
         font-size: 13px;
-    }
-    .card-reason img{
-        width: 50%;
-        margin-left: 125px;
-        
-    }
-    #layanan{
+      }
+      .harga-col-card{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+     
+      /* portfolio */
+      
+       #portfolio{
+        height: 3200px;
+       }
+       .button-portfolio{
+        margin-top: -250px;
+       }
+
+       .heading-col-akhir{
         margin-top: -50px;
-    }
-    .button-portfolio{
-        margin-top: -25px;
-    }
+        margin-bottom: 30px;
+       }
 
-    #akhir{
-        padding-top: -50px;
-    }
-    .col-akhir h1{
-        font-size: 18px;
-    }
+       /* footer */
+       .footer-contact{
+        margin-top: 10px;
+       }
+       .footer-link{
+        margin-left: -100px;
+        width: 500px;
+       }
 
-    .col-akhir p{
-        font-size: 12px;
-    }
-
-    
 }
 
-@media screen and (max-width : 380px){
-    .subheading-hero{
-        font-size: 13px;
-        margin-top: 15px;
+/* sm */
+@media (min-width: 640px) {
+    .container-fluid{
+        max-width: 640px;
     }
-    .fix-hero{
-        width: 200px;
-    }
-    .fix-reason{
-        width: 325px;
-    }
-    .fix-layanan{
-        width: 280px;
-    }
-    .heading{
-        font-size: 18px;
-        margin-top: 15px;
-    }
-    .textpar{
-        font-size: 11px;
-    }
-    .card-reason{
-        width: 100%;
-    }
-    .heading {
-        width: 100%;
-    }
-    .textpar{
-        width: 100%;
-        margin-bottom: 0px;
-    }
+    .container {
+        max-width: 640px;
+      }
+      .img-hero{
+        margin-left: -10px;
+        margin-top: 60px;
+      }  
 
-    #layanan .container{
-        margin-top: -20px;
-    }
-     #layanan .container .row h1{
-        width: 100%;
-     }
-     #layanan .container .row p{
-        width: 100%;
-        font-size: 12px;
-     }
-
-  .row-layanan{
-    margin-left: 50px;
-    margin-top: -20px;
-  }   
-
-  .card-layanan{
-    display: flex;
-    justify-content: center;
-    width: 500px;
-  }
-
-  .layanantest{
-    width: 200px;
-  }
-
-  .harga-col h1{
-    width: 100%;
-  }
-  .harga-col p{
-    width: 100%;
-  }
-
-  .card-harga{
-    width: 80%;
-    margin-left: 50px;
-  }
-
-  .card-harga-bisnis{
-    width: 80%;
-    margin-left: 50px;
-  }
-
-  .card-harga-corporate{
-    width: 80%;
-    margin-left: 50px;
-  }
-
-  #alur{
-    height: 140vh;
-  }
-
-  #portfolio{
-    height: 350vh;
-  }
-
-  .portfolio_judul{
-    width: 100%;
-  }
-
-  #akhir{
-    width: 100%;
-    border: 20px;
-  }
-  .akhir-row{
-    width:100%;
-  }
-
-  .heading-col-akhir{
-    width: 75%;
-    margin-left: 8px;
-  }
-
-  .p-akhir{
-    width: 75%;
-    margin-left: 30px;
-  }
-  .button-akhir{
-    height: 100px;
-    width: 50%;
+      .card-reason img{         
+          margin-left: 170px;
+        }
+        .harga-col p{
+          font-size: 15px;
+        }
+        .detail-harga{
+          font-size: 15px;
+        } #portfolio{
+          height: 3750px;
+         }
+         .button-portfolio{
+          margin-top: -350px;
+         }
+         .footer-link{
+          margin-left: -40px;
+          width: 300px;
+         }
+         .col-akhir{
+          margin-top: 15px;
+         }
+     
+      
 }
 
-} */
+/* md */
+@media (min-width: 768px) {
+    .container-fluid {
+        max-width: 768px;
+      }
+    .container {
+        max-width: 768px;
+      }
+      .img-hero{
+        margin-left: -10px;
+        margin-top: 20px;
+       } 
+
+       .card-reason img{
+          width: 50%;
+          margin-left: 200px;
+        }
+        #portfolio{
+          height: 1700px;
+         }
+         .button-portfolio{
+          margin-top: -350px;
+         }
+         .footer-link{
+          margin-left: 20px;
+          width: 300px;
+         }
+         .col-akhir{
+          margin-top: 15px;
+         }
+}
+
+@media (min-width: 992px) {
+          .container-fluid {
+        max-width: 992px;
+      }
+    .container {
+        max-width: 992px;
+      }
+      .card-reason img{
+          width: 100%;
+          margin-left: 0px;
+        }
+        .harga-col-card{
+          width: 300px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      .col-layanan{
+          margin-top: -80px ;
+        }
+        #portfolio{
+          height: 1000px;
+         }
+         .footer-link{
+          margin-left: -40px;
+          width: 300px;
+         }
+         .col-akhir{
+          margin-top: 15px;
+         }
+}
+/* lg */
+@media (min-width: 1024px) {
+    .container-fluid {
+        max-width: 1024px;
+      }
+    .container {
+        max-width: 1024px;
+      }
+      .navbar .navbar-brand{
+        margin-top: -10px;
+      }
+      .subheading-hero{
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 15px;
+      }
+      .heading{
+        font-size: 25px;
+        margin-left: 15px;
+
+      }
+      .textpar{
+        font-size: 12px;
+        margin-left: 18px;
+
+      }
+      #hero{
+        height: 100vh;
+      }
+
+      .img-hero{
+        margin-left: -10px;
+        margin-top: 10px;
+    }  
+        .button-hero{
+            width: 200px;
+            margin-left: 10px;
+        }
+        .button-hero p{
+            font-size: 15px;
+            margin-top: 7px;
+        }
+        .card-reason img{
+          width: 100%;
+          margin-left: 0px;
+        }
+        .col-akhir{
+          margin-top: 15px;
+         }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .container-fluid {
+        max-width: 1280px;
+      }
+    .container {
+        max-width: 1280px;
+      }
+      .navbar .navbar-brand{
+        margin-top: -10px;
+      }
+
+      .subheading-hero{
+        font-size: 18px;
+        margin-top: 40px;
+        margin-left: 15px;
+      }
+      .heading{
+        font-size: 30px;
+        margin-left: 15px;
+
+      }
+      .textpar{
+        font-size: 15px;
+        margin-left: 18px;
+
+      }
+      .fix-layanan p{
+          font-size: 16px;
+        }
+        .subheading-layanan{
+          font-size: 20px;
+        }
+        .text-layanan{
+          font-size: 16px;
+        }
+        .harga-col p{
+          font-size: 16px;
+        }
+        .detail-harga{
+          font-size: 16px;
+        }
+        #portfolio{
+          height: 1000px;
+
+         }
+         .footer-link{
+          margin-left: 40px;
+          width: 300px;
+         }
+         .col-akhir{
+          margin-top: 15px;
+         }
+}
+
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .container-fluid {
+        max-width: 1536px;
+      }
+    .container {
+        max-width: 1536px;
+      }
+      .navbar .navbar-brand{
+        margin-top: -5px;
+      }
+      .subheading-hero{
+        font-size: 22px;
+        margin-top: 40px;
+        margin-left: 15px;
+      }
+      .heading{
+        font-size: 34px;
+        margin-left: 15px;
+
+      }
+      .textpar{
+        font-size: 18px;
+        margin-left: 18px;
+
+      }
+      .fix-layanan p{
+          font-size: 18px;
+        }
+        .harga-col p{
+          font-size: 15px;
+        }
+        .detail-harga{
+          font-size: 15px;
+        }
+        #portfolio{
+          height: 1000px;
+
+         }
+         /* footer */
+         .footer-link{
+          margin-left: 80px;
+          width: 300px;
+         }
+
+}
+
