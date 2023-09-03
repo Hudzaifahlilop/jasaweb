@@ -1,10 +1,10 @@
 /* xs */
 @media (min-width: 350px) {
     .container-fluid{
-        max-width: 450px;
+        max-width: 350px;
     }
     .container {
-        max-width: 450px;
+        max-width: 350px;
       }
       .navbar .navbar-brand{
         margin-top: -20px;
@@ -92,8 +92,12 @@
        }
 
        .heading-col-akhir{
-        margin-top: -50px;
+        margin-top: -30px;
         margin-bottom: 30px;
+       }
+       .button-akhir{
+        max-width: max-content;
+        width: 100%;
        }
 
        /* footer */
