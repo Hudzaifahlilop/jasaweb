@@ -85,10 +85,14 @@
       /* portfolio */
       
        #portfolio{
-        height: 2850px;
+        height: 3100px;
        }
        .button-portfolio{
         margin-top: -250px;
+       }
+
+       .content-porto{
+        margin-bottom: 20px;
        }
 
        .heading-col-akhir{
@@ -158,6 +162,24 @@
     .container {
         max-width: 768px;
       }
+      .carousel-inner {
+        display: flex;
+        width: 1000px;
+      }
+      .carousel-item {
+        margin-right: 0;
+        margin-left: 10px;
+        flex: 0 0 33.333333%;
+        display: block;
+      }
+      .carousel-control-next,
+      .carousel-control-prev{
+        display: none;
+      }
+      /* carousel harga */
+      
+
+      /* hero */
       .img-hero{
         width: 100%;
         margin-left: auto;

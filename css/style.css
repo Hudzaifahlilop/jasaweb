@@ -104,7 +104,7 @@ body{
     color: var(---tp-color);
     font-weight: 400px;
     font-size: 15px;
-    text-align: justify ;
+    text-align: start;
 }
 
 .button-hero{
@@ -230,15 +230,25 @@ body{
 
 .card-harga{
     border-radius: 15px;
-    
+    max-width: max-content;
+    width: 300px;
     border-color: var(--pr-color);
 }
 
 .card-harga-bisnis{
     border-radius: 15px;
     border-color: var(--orange-color);
+    max-width: max-content;
+    width: 300px;
 
 }
+
+.carousel-control-next-icon,
+      .carousel-control-prev-icon{
+        border-radius: 20px;
+        background-color: #2969ff;
+        height: 50px;
+      }
 
 .heading-harga{
     color: #fff;
@@ -329,6 +339,8 @@ body{
     transition: all ease-in-out 0.2s;
 }
 
+/* carousel */
+
 
 /* portfolo section */
 
@@ -341,7 +353,12 @@ body{
     height: 10px;
 }
 
-
+.img-portfolio{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    background: linear-gradient(160deg, var(--pr-color),#fff);
+}
 
 .col-portfolio h1{
     color: var(---tp-color);
@@ -376,7 +393,7 @@ body{
     margin-top: 10px;
 }
 
-.content-porto:hover{
+.img-portfolio:hover{
     transform: translateY(-20px);
     box-shadow: 0 0 7px 3px rgba(0,0,0, 0.2);
     transition: all ease-in-out 0.3s;
